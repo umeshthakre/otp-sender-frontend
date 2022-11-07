@@ -147,7 +147,7 @@ const Menu = () => {
                     </ListItem>
                   );
                 })
-              : ""}
+              : <Typography>Loading....</Typography>}
           </List>
         </div>
       </div>
