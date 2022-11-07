@@ -60,7 +60,7 @@ const SendMessage = () => {
     setLoading(true);
     console.log("running this");
     const response = await sendSms();
-    console.log(response);
+    console.log("res",response);
     if(response.success === true){
         setMessage("your message was sent successfully")
     }else{
